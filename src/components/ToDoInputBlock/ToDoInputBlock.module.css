@@ -25,8 +25,12 @@ button {
     border: 2px solid royalblue;
     border-left: 0;
 }
+.plusButton:hover {
+    background-color: royalblue;
+}
+
 .plusImg{
     display: flex;
 max-height: 30px;
-
+    padding: 0 5px;
 }
