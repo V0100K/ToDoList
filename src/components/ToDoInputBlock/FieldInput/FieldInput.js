@@ -1,11 +1,14 @@
 import React from 'react';
-import imgBook from 'img/img-one.svg'
 
-function FieldInput(props) {
+import s from './FieldInput.module.css'
+
+
+function FieldInput() {
      return (
-          <div>
-               <img alt="book" src={imgBook}/>
-               <input type="text" placeholder="Enter text"></input>
+          <div className={s.wrapperInputBlock}>
+
+               <input className={s.input} type="text" placeholder="Enter text"></input>
+
           </div>
      );
 }

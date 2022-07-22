@@ -1,10 +1,11 @@
 import React from 'react';
 
-function Button(props) {
-     return (
-          <div>
+import s from './Button.module.css'
 
-          </div>
+function Button({ text }) {
+     console.log('wwewewew');
+     return (
+          <button className={s.btnSubmit}>{text}</button>
      );
 }
 

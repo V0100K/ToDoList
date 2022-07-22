@@ -1,8 +1,6 @@
-// абсолютный импорт
-
 {
   "compilerOptions": {
-"baseUrl": "src"
-},
-"include": ["src"]
+    "baseUrl": "src"
+  },
+  "include": ["src"]
 }

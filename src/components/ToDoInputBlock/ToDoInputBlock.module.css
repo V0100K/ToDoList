@@ -1,0 +1,32 @@
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+.wrapperToDoInputBlock {
+    max-height: 35px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.img {
+    background-color: rgba(2, 127, 212, 0.7);
+    padding-left: 5px;
+    width: 36px;
+}
+
+.plusButton {
+    background-color: rgba(2, 127, 212, 0.7);
+    border: 2px solid royalblue;
+    border-left: 0;
+}
+.plusImg{
+    display: flex;
+max-height: 30px;
+
+}

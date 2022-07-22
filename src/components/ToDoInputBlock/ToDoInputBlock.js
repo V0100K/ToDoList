@@ -1,12 +1,21 @@
 import React from 'react';
 import FieldInput from "./FieldInput/FieldInput";
-import Button from "../../elements/Button/Button";
+
+
+import imgBook from "../../img/img-logoBook.svg";
+import plusButton from './../../img/icons-plus.svg'
+
+import s from './ToDoInputBlock.module.css'
 
 function ToDoInputBlock(props) {
      return (
-          <div>
+          <div className={s.wrapperToDoInputBlock}>
+               <img className={s.img} alt="book" src={imgBook}/>
                <FieldInput/>
-               <Button/>
+               {/*<button className={s.plusButton}></button>*/}
+               <button className={s.plusButton}>
+                    <img className={s.plusImg} alt='add' src={plusButton} />
+               </button>
           </div>
      );
 }

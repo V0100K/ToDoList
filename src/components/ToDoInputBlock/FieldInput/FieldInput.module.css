@@ -1,0 +1,13 @@
+
+
+/*.wrapperInputBlock{*/
+/*    display: flex;*/
+/*}*/
+
+.input{
+    border: 2px solid royalblue;
+    max-width: 350px;
+    font-size: 25px;
+    outline: none;
+
+}

@@ -1,0 +1,10 @@
+
+.btnSubmit{
+    background-color: royalblue;
+    color: wheat;
+}
+
+.btnSubmit:hover{
+    background-color: blue;
+    color:white;
+}
