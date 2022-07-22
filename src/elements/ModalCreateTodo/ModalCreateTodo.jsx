@@ -1,5 +1,5 @@
 import "./ModalCreateTodo.css";
-import React from "react";
+
 
 function template() {
   return (
